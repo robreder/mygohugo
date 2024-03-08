@@ -1,5 +1,5 @@
-baseURL = 'http://localhost:5500/'
-#baseURL = 'https://robreder.github.io/mygohugo/'
+#baseURL = 'http://localhost:5500/'
+baseURL = 'https://robreder.github.io/mygohugo/'
 languageCode = 'en-us'
 title = 'Titel und baseURL kann in hugo.toml angepasst werden ;-)'
 theme = 'ananke'
