@@ -8,6 +8,6 @@
         <script>
         let markers = {{ index $.Site.Data . }};
         </script>
-        <script src="/map.js"></script>
+        <script src="{{ .Page.Site.BaseURL }}/map.js"></script>
     </div>
 {{ end }}
