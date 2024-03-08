@@ -1,0 +1,13 @@
+{{ $spots := .Get "spots" }}
+<!-- hallo{{ print $spots }}</div> -->
+
+{{ with $spots }}
+    <div id="map">
+        <link rel="stylesheet" href="https://unpkg.com/leaflet@1.7.1/dist/leaflet.css" crossorigin=""/>
+        <script src="https://unpkg.com/leaflet@1.7.1/dist/leaflet.js" crossorigin=""></script>
+        <script>
+        let markers = {{ index $.Site.Data . }};
+        </script>
+        <script src="/map.js"></script>
+    </div>
+{{ end }}

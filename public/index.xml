@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Home on Titel und baseURL kann in hugo.toml angepasst werden ;-)</title>
+    <link>http://localhost:5500/</link>
+    <description>Recent content in Home on Titel und baseURL kann in hugo.toml angepasst werden ;-)</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sat, 02 Mar 2024 22:17:32 +0100</lastBuildDate>
+    <atom:link href="http://localhost:5500/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Expired Date</title>
+      <link>http://localhost:5500/posts/expired-date/</link>
+      <pubDate>Sat, 02 Mar 2024 22:17:32 +0100</pubDate>
+      <guid>http://localhost:5500/posts/expired-date/</guid>
+      <description>Introduction Überprüfe immer die expiryDate und publishDate Eigenschaften in einem Post!!&#xA;Sonst könnte es sein, dass der Post nicht angezeigt wird!! Auch draft muss false sein und&#xA;date muss in der Vergangenheit liegen ;-)</description>
+    </item>
+    <item>
+      <title>Second Post</title>
+      <link>http://localhost:5500/posts/second-post/</link>
+      <pubDate>Sat, 02 Mar 2024 21:27:47 +0100</pubDate>
+      <guid>http://localhost:5500/posts/second-post/</guid>
+      <description>Überblick Wir brauchen hier einen Text Hello! &amp;#x1f44b; Heute ist ein so schöner Tag. Wir könnten alle mitarbeiten :-) Was meinst du? toc = true zeigt hier auch eine Übersicht an. (Table of Content)&#xA;Erstes Kapitel </description>
+    </item>
+    <item>
+      <title>Roberts or Hugos erster Post</title>
+      <link>http://localhost:5500/posts/my-first-post/</link>
+      <pubDate>Thu, 29 Feb 2024 15:07:07 +0100</pubDate>
+      <guid>http://localhost:5500/posts/my-first-post/</guid>
+      <description>Introduction Das ist ein bold Text, und das ist ein emphasized Text. Heute ist ein so schöner Tag. Wir könnten alle mitarbeiten :-) Was meinst du? toc = true zeigt hier auch eine Übersicht an. (Table of Content) Visit the Hugo website!&#xA;Erstes Kapitel Hier könnte ein Text für das zweite Kapitel stehen.&#xA;Unterteil - falls das richtig angezeigt wird. Man könnte natürlich auch Bilder anzeigen.&#xA;Zweiter Teil Mit hilfe des TOC kann man dann auch die unterschiedlichen Teile schnell erreichen.</description>
+    </item>
+    <item>
+      <title></title>
+      <link>http://localhost:5500/about/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:5500/about/</guid>
+      <description>Das sind bwz. waren meine Wohnorte Über mich Hallo hier könnte noch eine weitere Beschreibung sein &amp;hellip;&#xA;Sonst noch Vor langer, langer Zeit, &amp;hellip; Bild Medium Size Hier könnte noch ein schönes Bild herpassen ;-)&#xA;Teste Zugriff auf jsonPlaceHolder Click to fetch data </description>
+    </item>
+    <item>
+      <title></title>
+      <link>http://localhost:5500/vacations/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:5500/vacations/</guid>
+      <description>Urlaub Site mein Urlaub&#xA;These are my favorite vacation spots </description>
+    </item>
+  </channel>
+</rss>

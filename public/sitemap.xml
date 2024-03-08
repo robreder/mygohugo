@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+  xmlns:xhtml="http://www.w3.org/1999/xhtml">
+  <url>
+    <loc>http://localhost:5500/posts/expired-date/</loc>
+    <lastmod>2024-03-02T22:17:32+01:00</lastmod>
+  </url><url>
+    <loc>http://localhost:5500/</loc>
+    <lastmod>2024-03-02T22:17:32+01:00</lastmod>
+  </url><url>
+    <loc>http://localhost:5500/posts/</loc>
+    <lastmod>2024-03-02T22:17:32+01:00</lastmod>
+  </url><url>
+    <loc>http://localhost:5500/posts/second-post/</loc>
+    <lastmod>2024-03-02T21:27:47+01:00</lastmod>
+  </url><url>
+    <loc>http://localhost:5500/posts/my-first-post/</loc>
+    <lastmod>2024-02-29T15:07:07+01:00</lastmod>
+  </url><url>
+    <loc>http://localhost:5500/about/</loc>
+  </url><url>
+    <loc>http://localhost:5500/vacations/</loc>
+  </url><url>
+    <loc>http://localhost:5500/categories/</loc>
+  </url><url>
+    <loc>http://localhost:5500/tags/</loc>
+  </url>
+</urlset>

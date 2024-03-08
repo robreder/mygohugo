@@ -1,0 +1,9 @@
+baseURL = 'http://localhost:5500/'
+languageCode = 'en-us'
+title = 'Titel und baseURL kann in hugo.toml angepasst werden ;-)'
+theme = 'ananke'
+#theme = 'beautifulhugo'
+enableEmoji = true
+
+[params]
+myname = 'Robert'

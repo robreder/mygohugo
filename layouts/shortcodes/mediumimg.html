@@ -1,0 +1,10 @@
+<div>
+    {{ $image := resources.Get (.Get "src") }}
+    {{ $altText := (.Get "alt") }}
+
+{{ with $image }}
+    <img src="{{ ($image.Resize "500x").RelPermalink }}" {{ with $altText }} alt="{{.}}" {{ else }} alt="" {{ end }} >
+{{ end }}
+
+
+</div>

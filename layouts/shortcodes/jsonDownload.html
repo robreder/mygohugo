@@ -1,0 +1,33 @@
+<div>
+    <div id="jsonresp"></div>
+    <script>
+        function fetchData(){
+            let url = 'https://jsonplaceholder.typicode.com/todos/1';
+            const output = document.getElementById("jsonresp");
+            let markers = fetch(url)
+                .then(response => response.json())
+                .then(json => {
+                    console.log(json);
+                    
+                    const responseContainer = document.createElement("div");
+                    responseContainer.innerHTML = "Hallo";
+                    output.innerHTML += "Title: " + json.title + "<br>";
+                    /* 
+                    * Work with the responseContainer.
+                    * As example to get all elements with class "example":
+                    * responseContainer.getElementsByClassName("example")
+                    */
+                })
+                .catch((err) => {
+                    const errorText = "Can’t access " + url + " response. Blocked by browser?" + err;
+                    output.innerHTML += errorText + "<br>";
+                    console.log(errorText);
+                    
+                });
+        }
+     
+    </script>
+    <div class="thebutton" onclick="fetchData()">Click to fetch data</div>
+</div>
+
+

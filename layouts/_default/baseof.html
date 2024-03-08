@@ -1,0 +1,13 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        {{ partial "meta.html" . }}
+    </head>
+    <body>
+        {{ partial "nav.html" }}
+        {{ block "main" . }}
+        {{ end }}
+        {{ partial "footer.html" . }}
+        <!-- last dot is needed for context of md-file. To know if e.g. hide_footer is set -->
+    </body>
+</html>

@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title></title>
+        
+<link rel="stylesheet" href="http://localhost:5500/sass/main.min.css">
+    </head>
+    <body>
+        <nav>
+    <ul>
+      <li><a href="/">-Home-</a></li>
+      <li><a href="/about/">-Über-mich-</a></li>
+      <li><a href="/vacations/">-Urlaubsorte-</a></li>
+    </ul>
+</nav>
+        
+  <div class="flex-l mt2 mw8 center">
+    <article class="center cf pv5 ph3 ph4-ns mw7">
+      <header>
+        <h1 class="f1">
+          
+        </h1>
+      </header>
+      <div class="nested-copy-line-height lh-copy f4 nested-links mid-gray">
+        <h3 id="das-sind-bwz-waren-meine-wohnorte">Das sind bwz. waren meine Wohnorte</h3>
+
+
+
+
+    <div id="map">
+        <link rel="stylesheet" href="https://unpkg.com/leaflet@1.7.1/dist/leaflet.css" crossorigin=""/>
+        <script src="https://unpkg.com/leaflet@1.7.1/dist/leaflet.js" crossorigin=""></script>
+        <script>
+        let markers = [{"latitude":48.0443,"longitude":14.1243,"name":"Bad Hall"},{"latitude":48.395715,"longitude":13.5972446,"name":"Sigharting"},{"latitude":48.4538,"longitude":13.4316,"name":"Schärding"},{"latitude":48.1577,"longitude":14.0309,"name":"Wels"},{"latitude":47.3972,"longitude":10.8783,"name":"Lermoos"},{"latitude":47.7725,"longitude":12.9955,"name":"Wals"},{"latitude":48.2076,"longitude":16.3651,"name":"Wien Antonigasse"},{"latitude":46.4386,"longitude":6.9115,"name":"Caux sur Montreux"},{"latitude":52.2452,"longitude":0.4059,"name":"Newmarket"},{"latitude":41.5399,"longitude":2.4443,"name":"Mataró"}];
+        </script>
+        <script src="/map.js"></script>
+    </div>
+
+<h2 id="über-mich">Über mich</h2>
+<p><div>
+    
+    
+
+
+    <img src="/images/leaf_and_dews_hu404ced01c9b597a0bc3c53f296f1534e_599833_150x0_resize_q75_box.jpg"  alt="Leaf and dews"  >
+
+
+
+</div>
+Hallo hier könnte noch eine weitere Beschreibung sein &hellip;</p>
+<h2 id="sonst-noch">Sonst noch</h2>
+<p>Vor langer, langer Zeit, &hellip;
+<div>
+    
+    
+
+
+    <img src="/images/test_huc3a8c0c897443c0baf7fcde68583470e_5240100_150x0_resize_box_3.png"  alt="test"  >
+
+
+
+</div></p>
+<h2 id="bild-medium-size">Bild Medium Size</h2>
+<p><div>
+    
+    
+
+
+    <img src="/images/test_huc3a8c0c897443c0baf7fcde68583470e_5240100_500x0_resize_box_3.png"  alt=""  >
+
+
+
+</div>
+Hier könnte noch ein schönes Bild herpassen ;-)</p>
+<p>Teste Zugriff auf jsonPlaceHolder
+<div>
+    <div id="jsonresp"></div>
+    <script>
+        function fetchData(){
+            let url = 'https://jsonplaceholder.typicode.com/todos/1';
+            const output = document.getElementById("jsonresp");
+            let markers = fetch(url)
+                .then(response => response.json())
+                .then(json => {
+                    console.log(json);
+                    
+                    const responseContainer = document.createElement("div");
+                    responseContainer.innerHTML = "Hallo";
+                    output.innerHTML += "Title: " + json.title + "<br>";
+                    
+
+                })
+                .catch((err) => {
+                    const errorText = "Can’t access " + url + " response. Blocked by browser?" + err;
+                    output.innerHTML += errorText + "<br>";
+                    console.log(errorText);
+                    
+                });
+        }
+     
+    </script>
+    <div class="thebutton" onclick="fetchData()">Click to fetch data</div>
+</div>
+
+
+</p>
+
+      </div>
+    </article>
+  </div>
+
+        
+    <footer>
+        Website made by Robert in 2024
+    </footer>
+
+        
+    </body>
+</html>
