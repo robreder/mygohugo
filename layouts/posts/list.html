@@ -1,8 +1,13 @@
 {{ define "main" }}
 <p>new2 Block Posts Test</p>
         
-<ul>
-        <li>test</li>
+ <ul>
+ {{ range .Pages }}
+        <li>
+                <a href="{{ .Permalink }}>{{ .Title }}</a> - test
+        </li>
+ {{ end }}
+        
         
     </ul>
 {{ end }}
