@@ -1,0 +1,12 @@
+{{ define "main" }}
+<p>new Block Posts Test</p>
+        
+<ul>
+        <li>test</li>
+        {{ range .Pages }}
+                <li>
+                        <a href="{{ .Permalink }}>{{ .Title }}</a> - {{ .Date.Format "January 2, 2006" }}
+                </li>
+        {{ end }}
+    </ul>
+{{ end }}
