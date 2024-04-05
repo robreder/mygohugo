@@ -2,8 +2,8 @@
 baseURL = 'https://robreder.github.io/mygohugo/'
 languageCode = 'en-us'
 title = 'Titel und baseURL kann in hugo.toml angepasst werden ;-)'
-theme = 'ananke'
-#theme = 'beautifulhugo'
+#theme = 'ananke'
+theme = 'beautifulhugo'
 enableEmoji = true
 
 [params]
